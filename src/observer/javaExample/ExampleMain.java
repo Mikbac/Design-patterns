@@ -8,13 +8,12 @@ public class ExampleMain {
         User user = new User();
         user.setNewestUser("Test1");
 
-        Boss boss = new Boss(user);
+        Boss boss1 = new Boss(user);
+        Boss boss2 = new Boss(user);
 
-        user.addObserver(boss);
+        user.addObserver(boss1);
+        user.addObserver(boss2);
+
         user.notifyObserver();
-        user.setNewestUser("Test2");
-        user.deleteObserver(boss);
-
-        boss.update();
     }
 }
