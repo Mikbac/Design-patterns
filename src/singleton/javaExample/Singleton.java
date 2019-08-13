@@ -1,5 +1,9 @@
 package singleton.javaExample;
 
+/**
+ * Created by MikBac on 2019
+ */
+
 public class Singleton {
 
     private static Singleton singleInstance = null;
@@ -16,14 +20,12 @@ public class Singleton {
         if (singleInstance == null) {
             singleInstance = new Singleton();
             System.out.println("creates new instance");
-        }
-        else{
+        } else {
             System.out.println("doesn't create new instance");
         }
 
         return singleInstance;
     }
-
 
     /*some methods*/
     public void setNameAndSurname(String name, String surname) {

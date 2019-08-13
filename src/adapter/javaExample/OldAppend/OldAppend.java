@@ -1,5 +1,9 @@
 package adapter.javaExample.OldAppend;
 
+/**
+ * Created by MikBac on 2019
+ */
+
 public class OldAppend implements OldAppendInterface {
 
     public StringBuilder appendA(String word) {

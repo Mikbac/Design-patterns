@@ -1,5 +1,9 @@
 package adapter.javaExample.NewAppend;
 
+/**
+ * Created by MikBac on 2019
+ */
+
 public class NewAppend implements NewAppendInterface {
 
     public StringBuilder appendB(String word) {

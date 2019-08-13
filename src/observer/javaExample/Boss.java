@@ -1,10 +1,12 @@
 package observer.javaExample;
 
+/**
+ * Created by MikBac on 2019
+ */
 
 public class Boss implements Observer {
     private final User user;
     private String newestUser;
-
 
     public Boss(User user) {
         this.user = user;

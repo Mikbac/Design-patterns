@@ -1,5 +1,8 @@
 package observer.javaExample;
 
+/**
+ * Created by MikBac on 2019
+ */
 
 public class ExampleMain {
 

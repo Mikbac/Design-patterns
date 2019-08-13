@@ -4,6 +4,10 @@ import strategy.javaExample.strategies.AppendAStrategy;
 import strategy.javaExample.strategies.AppendBStrategy;
 import strategy.javaExample.strategies.AppendCStrategy;
 
+/**
+ * Created by MikBac on 2019
+ */
+
 public class ExampleMain {
 
     public static void main(String[] args) {
@@ -18,7 +22,6 @@ public class ExampleMain {
 
         appendContext.setStrategy(new AppendCStrategy());
         System.out.println(appendContext.append("Lorem ipsum", 15));
-
 
     }
 }

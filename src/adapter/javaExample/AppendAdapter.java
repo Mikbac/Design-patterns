@@ -3,6 +3,10 @@ package adapter.javaExample;
 import adapter.javaExample.NewAppend.NewAppend;
 import adapter.javaExample.OldAppend.OldAppendInterface;
 
+/**
+ * Created by MikBac on 2019
+ */
+
 public class AppendAdapter implements OldAppendInterface {
 
     NewAppend newAppend;

@@ -4,3 +4,4 @@
 ## 2. Singleton
 ## 3. Adapter
 ## 4. Obserwator / Observer
+## 5. Budowniczy / Builder

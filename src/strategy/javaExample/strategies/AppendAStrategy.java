@@ -1,7 +1,10 @@
 package strategy.javaExample.strategies;
 
-
 import strategy.javaExample.AppendStrategy;
+
+/**
+ * Created by MikBac on 2019
+ */
 
 public class AppendAStrategy implements AppendStrategy {
 

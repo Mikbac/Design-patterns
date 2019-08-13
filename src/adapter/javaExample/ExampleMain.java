@@ -1,7 +1,10 @@
 package adapter.javaExample;
 
-
 import adapter.javaExample.NewAppend.NewAppend;
+
+/**
+ * Created by MikBac on 2019
+ */
 
 public class ExampleMain {
 
@@ -12,7 +15,6 @@ public class ExampleMain {
         AppendAdapter appendAdapter = new AppendAdapter(newAppend);
 
         System.out.println(appendAdapter.appendA("White"));
-
 
     }
 }

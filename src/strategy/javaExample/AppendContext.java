@@ -1,5 +1,9 @@
 package strategy.javaExample;
 
+/**
+ * Created by MikBac on 2019
+ */
+
 public class AppendContext {
 
     AppendStrategy strategy;

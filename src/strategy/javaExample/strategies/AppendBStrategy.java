@@ -2,6 +2,10 @@ package strategy.javaExample.strategies;
 
 import strategy.javaExample.AppendStrategy;
 
+/**
+ * Created by MikBac on 2019
+ */
+
 public class AppendBStrategy implements AppendStrategy {
 
     public StringBuilder appendChars(String baseString, int number) {
