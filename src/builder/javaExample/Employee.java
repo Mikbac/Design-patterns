@@ -13,47 +13,40 @@ public class Employee {
     private BigDecimal salary;
     private Integer age;
 
-    public static final class Builder {
+    public static EmployeeBuilder prepare() {
+        return new EmployeeBuilder();
+    }
 
-        private String name;
-        private String surname;
-        private BigDecimal salary;
-        private Integer age;
+    public static final class EmployeeBuilder {
 
-        public Builder name(String name) {
-            this.name = name;
+        private Employee employee;
+
+        public EmployeeBuilder() {
+            this.employee.name = "Bob";
+        }
+
+        public EmployeeBuilder withName(String name) {
+            this.employee.name = name;
             return this;
         }
 
-        public Builder surname(String surname) {
-            this.surname = surname;
+        public EmployeeBuilder withSurname(String surname) {
+            this.employee.surname = surname;
             return this;
         }
 
-        public Builder salary(BigDecimal salary) {
-            this.salary = salary;
+        public EmployeeBuilder withSalary(BigDecimal salary) {
+            this.employee.salary = salary;
             return this;
         }
 
-        public Builder age(Integer age) {
-            this.age = age;
+        public EmployeeBuilder withAge(Integer age) {
+            this.employee.age = age;
             return this;
         }
 
         public Employee build() {
-
-            if (name.isEmpty()) {
-             /*
-                Some exception
-            */
-            }
-
-            Employee employee = new Employee();
-            employee.name = this.name;
-            employee.surname = this.surname;
-            employee.salary = this.salary;
-            employee.age = this.age;
-            return employee;
+            return this.employee;
 
         }
 

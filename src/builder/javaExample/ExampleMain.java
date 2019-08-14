@@ -10,7 +10,7 @@ public class ExampleMain {
 
     public static void main(String[] args) {
 
-        Employee employee = new Employee.Builder()
+        Employee employee = Employee.prepare()
                 .name("Bob")
                 .surname("Black")
                 .salary(BigDecimal.valueOf(9999.99))
