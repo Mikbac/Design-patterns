@@ -22,6 +22,7 @@ public class Employee {
         private Employee employee;
 
         public EmployeeBuilder() {
+            this.employee = new Employee();
             this.employee.name = "Bob";
         }
 
