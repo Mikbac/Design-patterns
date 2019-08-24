@@ -11,10 +11,10 @@ public class ExampleMain {
     public static void main(String[] args) {
 
         Employee employee = Employee.prepare()
-                .name("Bob")
-                .surname("Black")
-                .salary(BigDecimal.valueOf(9999.99))
-                .age(77)
+                .withName("Bob")
+                .withSurname("Black")
+                .withSalary(BigDecimal.valueOf(9999.99))
+                .withAge(77)
                 .build();
 
     }
