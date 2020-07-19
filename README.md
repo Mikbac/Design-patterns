@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/Mikbac/Design-patterns)
+
 # Wzorce projektowe / Design patterns
 
 ## 1. Strategia / Strategy
